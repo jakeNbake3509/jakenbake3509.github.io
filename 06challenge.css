@@ -1,0 +1,51 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.Glasses {
+    grid-column: 2;
+}
+
+content {
+    grid-template-columns: 1fr 2fr
+}
+
+.consistent {
+    color: rgb(105, 105, 105);
+    text-align: center;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.download {
+    text-align: center;
+    color: gray;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.opt {
+    color: gray;
+}
+
+
+input::placeholder {
+    color: lightgray;
+    padding: 10px;
+    font-size: 15px;
+}
+
+button {
+    background-color: rgb(233, 154, 108);
+    font-size: 20px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    width: 200px;
+    padding: 12px;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
