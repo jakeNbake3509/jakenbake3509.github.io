@@ -231,26 +231,33 @@ main section img {
     box-sizing: border-box;
 }
 
-----------------------------------------------------------
-
-.faq-grid {
+#faq-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-#faq-img {
+.faq-img {
     border: 10px solid #d9c2a3;
 }
 
-.content {
-    padding-left: 250px;
+.contentfaq {
+    padding-left: 350px;
     padding-right: 250px;
 }
 
-#text {
-    font-family: 'cabin', 'Open Sans', sans-serif;
+.text {
+    font-size: 1.2em;
+    font-family: 'cabin', sans-serif;
 }
 
+h1 {
+    font-family: 'Rock Salt', cursive;
+    text-align: left;
+}
+
+.faq_head {
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
