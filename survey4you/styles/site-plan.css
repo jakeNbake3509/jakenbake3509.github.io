@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #6B0F1A   ;
-  --secondary-color: #595959 ;
-  --accent1-color: #000000;
-  --accent2-color: #DCE0D9;
+  --primary-color: #282828   ;
+  --secondary-color: #DCE0D9 ;
+  --accent1-color: #595959;
+  --accent2-color: #6B0F1A;
 
   /* change the values below to your chosen font(s) */
   --heading-font: 'Source Code Pro', monspace;
@@ -18,11 +18,11 @@ Fonts are separated by a | */
   --headline-color-on-white: #000000;  /* headlines on a white background */ 
   --headline-color-on-color: #DCE0D9; /* headlines on a colored background */ 
   --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #DCE0D9; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #595959;
   --nav-link-color: #DCE0D9;
-  --nav-background-color: #6B0F1A;
-  --nav-hover-link-color: black;
+  --nav-background-color: #000000;
+  --nav-hover-link-color: #000000;
   --nav-hover-background-color: #6B0F1A;
 }
 
